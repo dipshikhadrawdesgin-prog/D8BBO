@@ -1,0 +1,6 @@
+{
+  "name": "Trade Calculation",
+  "description": "Daily compound trading growth calculator with custom reinvestment, weekend scheduling, visual charts, and detailed daily breakdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

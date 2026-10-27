@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+    background-color: #060608;
+    color: #f4f4f5;
+  }
+}
+
+/* Custom smooth dark scrollbar with pink tint */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ec4899;
+}
+
+/* Apple-style subtle ambient glow effects */
+.apple-glass {
+  background: rgba(18, 18, 24, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.apple-glass-card {
+  background: linear-gradient(135deg, rgba(24, 24, 32, 0.7) 0%, rgba(12, 12, 16, 0.8) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pink-glow {
+  box-shadow: 0 0 25px -4px rgba(236, 72, 153, 0.3);
+}
+
+.pink-glow-sm {
+  box-shadow: 0 0 14px -2px rgba(236, 72, 153, 0.25);
+}
+
+.pink-text-glow {
+  text-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+}
